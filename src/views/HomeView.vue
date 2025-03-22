@@ -1,7 +1,22 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Container from '@/components/Container.vue'
+</script>
 
 <template>
-  <main>
-    <h1 class="text-3xl font-bold underline bg-green-500">Hello world!</h1>
-  </main>
+  <div class="bg-black min-h-screen text-white">
+    <Container>
+      <!-- TESTER FOR WIDTH -->
+      <div class="h-2 bg-white"></div>
+      <!-- header -->
+      <div></div>
+      <!-- about -->
+      <div></div>
+      <!-- experience -->
+      <div></div>
+      <!-- skills  ?? cool cards? -->
+      <div></div>
+      <!-- education -->
+      <div></div>
+    </Container>
+  </div>
 </template>
