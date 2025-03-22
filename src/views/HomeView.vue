@@ -29,7 +29,20 @@ import Container from '@/components/Container.vue'
       <!-- experience -->
       <div></div>
       <!-- skills  ?? cool cards? -->
-      <div></div>
+      <div>
+        <h2 class="uppercase text-sm">Workplace Skills</h2>
+        <div class="flex flex-row flex-wrap space-x-5 mt-3">
+          <p>VueJS</p>
+          <p>GitHub</p>
+          <p>Vitest</p>
+          <p>TailwindCSS</p>
+          <p>JavaScript</p>
+          <p>SQL</p>
+          <p>C#</p>
+          <p>WordPress</p>
+          <p></p>
+        </div>
+      </div>
       <!-- education -->
       <div></div>
     </Container>
