@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Container from '@/components/Container.vue'
+import SkillCard from '@/components/SkillCard.vue'
 </script>
 
 <template>
@@ -30,17 +31,16 @@ import Container from '@/components/Container.vue'
       <div></div>
       <!-- skills  ?? cool cards? -->
       <div>
-        <h2 class="uppercase text-sm">Workplace Skills</h2>
+        <h2 class="uppercase text-sm">Skillset</h2>
         <div class="flex flex-row flex-wrap space-x-5 mt-3">
-          <p>VueJS</p>
-          <p>GitHub</p>
-          <p>Vitest</p>
-          <p>TailwindCSS</p>
-          <p>JavaScript</p>
-          <p>SQL</p>
-          <p>C#</p>
-          <p>WordPress</p>
-          <p></p>
+          <SkillCard title="VueJS" icon="teenyicons:vue-solid" />
+          <SkillCard title="GitHub" icon="bytesize:github" />
+          <SkillCard title="Vitest" icon="devicon-plain:vitest" />
+          <SkillCard title="TailwindCSS" icon="lineicons:tailwindcss" />
+          <SkillCard title="JavaScript" icon="akar-icons:javascript-fill" />
+          <SkillCard title="SQL" icon="mdi:sql-query" />
+          <SkillCard title="C#" icon="devicon-plain:csharp" />
+          <SkillCard title="WordPress" icon="ic:baseline-wordpress" />
         </div>
       </div>
       <!-- education -->

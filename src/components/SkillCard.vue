@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import type { Component } from 'vue'
+import { Icon } from '@iconify/vue'
 
 const props = defineProps<{
   title: string
-  icon: Component
+  icon: string
 }>()
 </script>
 
 <template>
-  <div class="flex">
-    <component :is="props.icon" class="h-16 w-16 mr-3" />
+  <div class="flex bg-zinc-800 p-2 rounded-lg">
+    <Icon :icon="props.icon" class="h-5 mr-2" />
     <p class="text-sm">
       {{ props.title }}
     </p>
